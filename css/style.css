@@ -78,3 +78,17 @@ main{
     background-color: white;
     opacity: 0.65;
 }
+#pibes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pibes img{
+    width: 50%;
+}
+#tex1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1% 15% 0 15%;
+}

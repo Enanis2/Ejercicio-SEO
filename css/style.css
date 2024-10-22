@@ -65,30 +65,36 @@ main{
     position: absolute;
     color:black;
     font-weight: bold;
-    font-size: larger;
 }
 
 #vida{
-    transform: translate(80px, -350px);
+    transform: translate(60px, -250px);
+    font-size: small;
 }
 
 #confesiones{
-    transform: translate(90px, -425px);
+    transform: translate(15px, -345px);
+    font-size: large;
 }
 
 #anecdotas{
-    transform: translate(20px, -475px);
-    font-size: x-large;
+    transform: translate(11px, -350px);
+    font-size: 17px;
 }
 
 #porsuigieco{
-    transform: translate(80px, -480px);
-    font-size: x-large;
+    transform: translate(12px, -370px);
+    font-size: 15px;
 }
 
 #adiosSui{
-    transform: translate(90px, -540px);
-    font-size: large;
+    transform: translate(17px, -370px);
+    font-size: 11px;
+}
+
+#sinfonias{
+    transform: translate(55px, -397px);
+    font-size: 12px;
 }
 
 .contenedorTemas{
@@ -104,12 +110,12 @@ main{
 }
 
 .contenedorTemas p{
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .contenedorTemas:hover img{
     background-color: white;
-    opacity: 0.65;
+    opacity: 0.5;
 }
 
 #tituloDiscosNormales{
@@ -124,8 +130,24 @@ main{
     text-align: center;
 }
 
-#sinfonias{
-    transform: translate(160px, -550px);
+#tituloIntegrantes{
+    margin: 1% 0 1% 0;
+    padding: 0;
+    text-align: center;    
+}
+
+#integrantes img{
+    height: 60%;
+}
+
+#charly{
+    font-size: medium;
+    transform: translate(20px, -325px);
+}
+
+#nito{
+    font-size: medium;
+    transform: translate(60px, -300px);
 }
 
 

@@ -53,6 +53,8 @@ main{
 .discos{
     display: flex;
     justify-content: space-around;
+    margin: 0;
+    padding: 0;
 }
 
 .discos img{

@@ -67,19 +67,27 @@ main{
     font-weight: bold;
 }
 
+.discos ul{
+    list-style-position: inside;
+}
+
 #vida{
-    transform: translate(60px, -250px);
-    font-size: small;
+    transform: translate(-15px, -350px);
+    font-size: 16px;
+}
+
+.fechaAlbum{
+    list-style: none;
 }
 
 #confesiones{
-    transform: translate(15px, -345px);
+    transform: translate(-27px, -350px);
     font-size: large;
 }
 
 #anecdotas{
-    transform: translate(11px, -350px);
-    font-size: 17px;
+    transform: translate(-20px, -350px);
+    font-size: 16px;
 }
 
 #porsuigieco{
@@ -105,11 +113,19 @@ main{
     opacity: 1;
 }
 
+.contenedorTemas:hover ul{
+    opacity: 1;
+}
+
 .contenedorTemas img{
     transition: all 1s;
 }
 
 .contenedorTemas p{
+    transition: all 1s;
+}
+
+.contenedorTemas ul{
     transition: all 1s;
 }
 

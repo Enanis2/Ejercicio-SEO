@@ -311,3 +311,18 @@ main{
     font-size: large;
 }
 
+
+
+/*------FOOTER------*/
+
+footer{
+    margin-top: 100px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 1% 0 1% 0;
+    font-size: xx-large;
+}

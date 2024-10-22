@@ -92,3 +92,12 @@ main{
     text-align: center;
     margin: 1% 15% 0 15%;
 }
+#video{
+    width: 100%;
+    
+}
+#tex2{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}

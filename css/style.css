@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+img{
+    border-radius: 20px;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -158,12 +162,12 @@ main{
     text-align: center;    
 }
 
-#integrantes img{
-    height: 50%;
+#integrantes{
+    height: 600px
 }
 
 .contenedorIntegrantes{
-    height: 5000px;
+    height: 100%;
 }
 
 #charly{
@@ -176,9 +180,47 @@ main{
     transform: translate(60px, -300px);
 }
 
+#tituloGaleria{
+    margin: 1% 0 1% 0;
+    padding: 0;
+    text-align: center;
+}
 
+#galeria{
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 100px;
+}
 
+#galeria img{
+    height: 600px;
+}
 
+#CyN__señalandose h5{
+    padding-right: 30%;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+}
+
+#CyN__susurrando h5{
+    padding-right: 30%;
+}
+
+#CyN__galera h5{
+    padding-bottom: 130%;
+    padding-right: 30%; 
+}
+
+#CyN__bailando h5{
+    color: black;
+}
+
+#CyN__mano h5{
+    margin-bottom: 25%;
+}
 
 /*------HOME------*/
 

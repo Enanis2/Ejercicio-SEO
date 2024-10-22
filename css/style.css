@@ -61,7 +61,7 @@ main{
 }
 
 .temas{
-    display: none;
+    opacity: 0;
     position: absolute;
     color:black;
     font-weight: bold;
@@ -96,7 +96,15 @@ main{
 }
 
 .contenedorTemas:hover p{
-    display: flex;
+    opacity: 1;
+}
+
+.contenedorTemas img{
+    transition: all 1s;
+}
+
+.contenedorTemas p{
+    transition: all 2s;
 }
 
 .contenedorTemas:hover img{

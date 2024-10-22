@@ -203,6 +203,7 @@ main{
 #video{
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 #CyN__susurrando h5{
@@ -315,8 +316,9 @@ main{
 
 /*------FOOTER------*/
 
-footer{
-    margin-top: 100px;
+#footer{
+    margin: 0%;
+    padding: 0%;
 }
 
 footer ul{
@@ -325,4 +327,34 @@ footer ul{
     justify-content: space-around;
     margin: 1% 0 1% 0;
     font-size: xx-large;
+}
+
+.red{
+    display: flex;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes img{
+    width: 100%;
+}
+
+.logoRed{
+    width: 10%;
+}
+
+.red{
+    display: flex;
+    justify-content: start;
+    margin-left: 300px;
+}
+
+.laRed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
 }

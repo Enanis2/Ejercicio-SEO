@@ -162,5 +162,18 @@ main{
     font-size: large;
 }
 #aprende{
+    width: 70%;
+}
+.Confesiones{
     width: 100%;
+}
+.sin{
+    margin: 0;
+    padding: 0;
+}
+#tex3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
 }

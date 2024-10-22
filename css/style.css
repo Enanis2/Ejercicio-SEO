@@ -96,12 +96,12 @@ main{
 }
 
 #adiosSui{
-    transform: translate(17px, -370px);
+    transform: translate(-15px, -375px);
     font-size: 11px;
 }
 
 #sinfonias{
-    transform: translate(55px, -397px);
+    transform: translate(20px, -397px);
     font-size: 12px;
 }
 
@@ -131,7 +131,7 @@ main{
 
 .contenedorTemas:hover img{
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.25;
 }
 
 #tituloDiscosNormales{

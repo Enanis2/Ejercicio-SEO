@@ -136,6 +136,10 @@ main{
     opacity: 0.25;
 }
 
+.contenedorIntegrantes:hover img{
+    opacity: .5;
+}
+
 #tituloDiscosNormales{
     margin: 0;
     padding: 0;
@@ -155,7 +159,11 @@ main{
 }
 
 #integrantes img{
-    height: 60%;
+    height: 50%;
+}
+
+.contenedorIntegrantes{
+    height: 5000px;
 }
 
 #charly{

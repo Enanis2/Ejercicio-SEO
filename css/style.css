@@ -196,12 +196,13 @@ main{
     height: 600px;
 }
 
-#galeria video{
-    height: 600px;
-}
-
 #CyN__señalandose h5{
     padding-right: 30%;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
 }
 
 #CyN__susurrando h5{

@@ -269,11 +269,49 @@ main{
 }
 #grid{
     display: grid;
+    margin: 0 11% 0 11%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 
-    ''
+    'tex1 video foto'
+    'img tex2 foto';
+    grid-row-gap: 1%;
+    grid-column-gap: 1%;
 }
+#lorem-1{
+    grid-area: tex1;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+
+}
+#cancion-1{
+    grid-area: video;
+}
+#img{
+    grid-area: img;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    
+}
+#escaleras{
+    grid-area: foto;
+}
+#lorem-2{
+    grid-area: tex2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#img img{
+    width: 70%;
+}
+#lorem-1 p{
+    font-size: large;
+}
+
+
 
 /*------FOOTER------*/
 

@@ -91,6 +91,7 @@ main{
     justify-content: center;
     text-align: center;
     margin: 1% 15% 0 15%;
+    font-size: x-large;
 }
 #video{
     width: 100%;
@@ -100,4 +101,6 @@ main{
     display: flex;
     justify-content: end;
     text-align: end;
+    font-size: large;
+    
 }

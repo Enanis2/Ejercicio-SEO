@@ -77,7 +77,13 @@ main{
 }
 
 #anecdotas{
-    transform: translate(90px, -425px);
+    transform: translate(20px, -475px);
+    font-size: x-large;
+}
+
+#porsuigieco{
+    transform: translate(80px, -480px);
+    font-size: x-large;
 }
 
 .contenedorTemas{
@@ -100,12 +106,14 @@ main{
 }
 
 #tituloDiscosAnormales{
-    margin: 0;
+    margin: 1% 0 1% 0;
     padding: 0;
     text-align: center;
 }
 
-
+#sinfonias{
+    transform: translate(160px, -550px);
+}
 
 
 

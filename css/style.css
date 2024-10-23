@@ -248,9 +248,8 @@ main{
 }
 #tex2{
     display: flex;
-    justify-content: end;
-    text-align: end;
-    font-size: large;
+    justify-content:center;
+    text-align: center;
     align-items: center;
     height: 100%;
 }
@@ -480,7 +479,51 @@ p{
 
 
     /*-----CAMILO-----*/
+    #escaleras{
+        display: none;
+    }
+    #grid{
+        display: grid;
+        margin: 0 11% 0 11%;
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        'tex1 '
+        'video'
+        'tex2';
+    
+    
+    }
+    #lorem-1{
+        font-size: x-large;
+    }
+    #cancion-1{
+        height: 190PX;
+    }
+    #video{
+        width: 100%;
+    }
+    #img{
+        display: none;
+    }
+    #lorem-2{
+        font-size: large;
+    }
 
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 

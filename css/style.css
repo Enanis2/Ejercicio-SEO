@@ -270,25 +270,9 @@ main{
     align-items: center;
     height: 100%;
 }
-.centrados{
-    display: flex;
-    align-items: center;
-}
-#aprende{
-    width: 80%;
-}
-.Confesiones{
-    width: 100%;
-}
 .sin{
     margin: 0;
     padding: 0;
-}
-#tex3{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: x-large;
 }
 #grid{
     display: grid;
@@ -313,6 +297,7 @@ main{
     display: flex;
     justify-content: center;
     text-align: end;
+    font-size: larger;
 }
 #cancion-1{
     grid-area: video;
@@ -343,6 +328,7 @@ main{
     justify-content: center;
     text-align: center;
 }
+
 
 
 
@@ -525,48 +511,51 @@ div nav{
 
 
     /*-----CAMILO-----*/
-    #escaleras{
-        display: none;
-    }
     #grid{
         display: grid;
         margin: 0 11% 0 11%;
-        
+        padding: 20px 10px 20px 10px    ;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: 
-        'tex1 '
+        'tex1'
         'video'
-        'tex2';
-    
-    
+        'tex2'
+        'img';
+        grid-row-gap: 1%;
+        grid-column-gap: 1%;
     }
     #lorem-1{
-        font-size: x-large;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
-    #cancion-1{
-        height: 190PX;
-    }
-    #video{
-        width: 100%;
-    }
-    #img{
+    #escaleras{
         display: none;
     }
-    #lorem-2{
+    #lorem-2 p{
+        font-size: 20px;
+    }
+    #disco-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #pibes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #pibes img{
+        width: 100%;
+    }
+    #video-sui0{
+        width: 111%;
+    }
+    #tex2{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 1% 0% 0 6%;
         font-size: large;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

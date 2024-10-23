@@ -6,6 +6,7 @@
 img{
     border-radius: 20px;
 }
+
 video{
     border-radius: 20px;
 }
@@ -36,6 +37,7 @@ header ul{
 #marg0{
     margin: 0%;
     padding: 0%;
+    background-image: radial-gradient(#328bd9, #0f228c 75%);
 }
 
 #marg0-2{
@@ -45,7 +47,8 @@ header ul{
 
 #marg0-3{
     margin: 0%;
-    padding: 0%;    
+    padding: 0%;  
+    background-image: radial-gradient(#328bd9, #0f228c 75%);  
 }
 
 #marg0-4{
@@ -53,8 +56,17 @@ header ul{
     padding: 0%;
 }
 
+nav li:hover a{
+    text-decoration: underline;
+}
+
+u{
+    color: white;
+}
+
 main{
     margin: 0 5% 0 5%;
+    color: white;
 }
 
 .discos{
@@ -67,6 +79,7 @@ main{
 .discos img{
     width: 100%;
     height: 100%;
+    background-color: white;
 }
 
 .temas{
@@ -201,16 +214,12 @@ main{
 
 #video video{
     border-radius: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
 }
 
 #video{
     display: flex;
     justify-content: center;
-}
-
-#tituloDiscosNormales h1{
-    border: solid black 2px;
 }
 
 /*------HOME------*/
@@ -220,6 +229,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
 }
 
 #pibes img{
@@ -323,6 +333,26 @@ footer ul{
     display: flex;
 }
 
+.laRed h3{
+    color: white;
+}
+
+footer li:hover a{
+    text-decoration: underline;
+}
+
+.margen ul{
+    background-color: #F20519;
+}
+
+.margen{
+    padding-top: 40px;
+}
+
+footer img{
+    border-radius: 0px;
+}
+
 .redes{
     display: flex;
     flex-direction: column;
@@ -339,7 +369,6 @@ footer ul{
 .red{
     display: flex;
     justify-content: start;
-    margin-left: 300px;
 }
 
 .laRed{
@@ -348,10 +377,25 @@ footer ul{
     align-items: center;
     padding-left: 20px;
 }
+
+#transicion{
+    background-image: linear-gradient(to top, #f20519, #0f228c);
+    height: 20px;
+    margin: 0%;
+    padding: 0%;
+}
+
+#transicion2{
+    background-image: linear-gradient(to top, #f20519, #0f228c);
+    height: 20px;
+    margin: 0%;
+    padding: 0%;
+}
+
 /*---colores----*/
 
 body{
-    background-color: #0D2CD9;
+    background-color: #0f228c;
 }
 
 div nav{
@@ -365,15 +409,15 @@ p{
     color: white;
 }
 #grid{
-    background-color: #0D24A6;
+    background-color: #0f228c;
 }
 #grad{
     margin: 0 11% 0 11%;
     height: 50px;
-    background-image: linear-gradient(#328BD9,#0D24A6);
+    background-image: linear-gradient(#328BD9,#0f228c);
 }
 #footer{
-    background-color: #0F228C;
+    background-color: #F20519;
 }
 #disco1{
     margin: 0 11% 0 11%;
@@ -381,11 +425,10 @@ p{
 }
 #grad-0{
     height: 50px;
-    background-image: linear-gradient(#F20519,#0D2CD9);
+    background-image: linear-gradient(#F20519,#0f228c);
 }
 #grad-1{
     margin: 0 11% 0 11%;
     height: 50px;
     background-image: linear-gradient(#0D2CD9,#328BD9);
-
 }

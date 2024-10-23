@@ -304,7 +304,10 @@ main{
     display: flex;
     justify-content: center;
     text-align: center;
-
+}
+#lorem-1 p{
+    display: flex;
+    justify-content: center;
 }
 #cancion-1{
     grid-area: video;
@@ -399,8 +402,8 @@ footer img{
 }
 
 #transicion2{
-    background-image: linear-gradient(to top, #f20519, #0f228c);
-    height: 20px;
+    background-image: linear-gradient(to top, #a89f85, black, #fdf1d1);
+    height: 10px;
     margin: 0%;
     padding: 0%;
 }
@@ -409,53 +412,34 @@ footer img{
 
 body{
     background-color: #fdf1d1;
+    color: black;
 }
 
 div nav{
     color: black
 }
-
-p{
-    color: white;
-}
-#grid{
-    background-color: #0d24a6;
-}
 #grad{
     margin: 0 11% 0 11%;
     height: 50px;
-    background-image: linear-gradient(#328BD9, #0d24a6);
 }
 #grad-2{
     margin: 0 11% 0 11%;
     height: 50px;
-    background-image: linear-gradient(#0d24a6, #0f228c);    
 }
 #grad-3{
     margin: 30px 11% 0 11%;
     height: 50px;
-    background-image: linear-gradient(#0f228c, #328BD9);     
 }
 #gradNav{
     margin: 0;
     height: 10px;
-    background-image: linear-gradient(#F20519,rgb(8, 7, 7), #0f228c);    
+    background-image: linear-gradient(#bdb7a6, rgb(8, 7, 7), #fdf1d1);    
 }
 #footer{
     background-color: #a89f85;
 }
 #disco1{
     margin: 0 11% 0 11%;
-    background-color: #328BD9;
-}
-#grad-0{
-    height: 50px;
-    background-image: linear-gradient(#F20519,#0f228c);
-}
-#grad-1{
-    margin: 0 11% 0 11%;
-    height: 50px;
-    background-image: linear-gradient(#0D2CD9,#328BD9);
 }
 
 /*----------RESPONSIVE----------*/

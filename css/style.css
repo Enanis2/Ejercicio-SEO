@@ -6,6 +6,9 @@
 img{
     border-radius: 20px;
 }
+video{
+    border-radius: 20px;
+}
 
 a{
     text-decoration: none;
@@ -224,6 +227,7 @@ main{
 
 /*------HOME------*/
 
+
 #pibes{
     display: flex;
     justify-content: center;
@@ -281,8 +285,8 @@ main{
 #lorem-1{
     grid-area: tex1;
     display: flex;
-    justify-content: end;
-    text-align: end;
+    justify-content: center;
+    text-align: center;
 
 }
 #cancion-1{
@@ -304,12 +308,7 @@ main{
     justify-content: center;
     text-align: center;
 }
-#img img{
-    width: 70%;
-}
-#lorem-1 p{
-    font-size: large;
-}
+
 
 
 

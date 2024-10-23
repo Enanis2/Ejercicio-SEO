@@ -449,7 +449,9 @@ p{
 }
 
 /*----------RESPONSIVE----------*/
-/*-----ENANO-----*/
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    /*-----ENANO-----*/
 
 
 
@@ -477,4 +479,16 @@ p{
 
 
 
-/*-----CAMILO-----*/
+    /*-----CAMILO-----*/
+
+
+
+
+
+
+
+
+
+
+
+}

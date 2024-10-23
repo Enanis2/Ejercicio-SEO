@@ -19,7 +19,7 @@ header ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    margin: 1% 0 1% 0;
+    margin: 0 0 0 0;
     font-size: xx-large;
 }
 
@@ -362,4 +362,45 @@ footer ul{
     justify-content: center;
     align-items: center;
     padding-left: 20px;
+}
+/*---colores----*/
+
+body{
+    background-color: #0D2CD9;
+}
+
+div nav{
+    background-color: #F20519;
+    color: white;
+}
+a{
+    color: white;
+}
+p{
+    color: white;
+}
+#grid{
+    background-color: #0D24A6;
+}
+#grad{
+    margin: 0 11% 0 11%;
+    height: 50px;
+    background-image: linear-gradient(#328BD9,#0D24A6);
+}
+#footer{
+    background-color: #0F228C;
+}
+#disco1{
+    margin: 0 11% 0 11%;
+    background-color: #328BD9;
+}
+#grad-0{
+    height: 50px;
+    background-image: linear-gradient(#F20519,#0D2CD9);
+}
+#grad-1{
+    margin: 0 11% 0 11%;
+    height: 50px;
+    background-image: linear-gradient(#0D2CD9,#328BD9);
+
 }

@@ -6,6 +6,9 @@
 img{
     border-radius: 20px;
 }
+video{
+    border-radius: 20px;
+}
 
 a{
     text-decoration: none;
@@ -26,7 +29,7 @@ header ul{
     background-image: radial-gradient(at 50% 40%, white, #a89f85 75%);  
 }
 
-#header{
+.header{
     padding: 0%;
     margin: 0%;
     background-image: radial-gradient(at 50% 40%, white, #a89f85 75%);  
@@ -304,23 +307,35 @@ main{
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
 }
 #lorem-1 p{
     display: flex;
     justify-content: center;
+    text-align: end;
 }
 #cancion-1{
     grid-area: video;
+}
+#video-sui{
+    width: 100%;
 }
 #img{
     grid-area: img;
     display: flex;
     justify-content: end;
     text-align: end;
-    
 }
+#img img{
+    width: 100%;
+}
+
 #escaleras{
     grid-area: foto;
+}
+#escaleras img{
+    width: 100%;
+    height: 550px;
 }
 #lorem-2{
     grid-area: tex2;
@@ -328,6 +343,8 @@ main{
     justify-content: center;
     text-align: center;
 }
+
+
 
 
 /*------FOOTER------*/
@@ -351,6 +368,10 @@ footer ul{
 
 footer li:hover a{
     text-decoration: underline;
+}
+#sui-generis{
+    display: flex;
+    justify-content: center;
 }
 
 .margen ul{

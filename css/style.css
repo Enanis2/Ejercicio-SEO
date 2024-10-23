@@ -199,31 +199,18 @@ main{
     height: 600px;
 }
 
-#CyN__señalandose h5{
-    padding-right: 30%;
+#video video{
+    border-radius: 20px;
+    padding-bottom: 100px;
 }
 
 #video{
     display: flex;
     justify-content: center;
-    padding-bottom: 100px;
 }
 
-#CyN__susurrando h5{
-    padding-right: 30%;
-}
-
-#CyN__galera h5{
-    padding-bottom: 130%;
-    padding-right: 30%; 
-}
-
-#CyN__bailando h5{
-    color: black;
-}
-
-#CyN__mano h5{
-    margin-bottom: 25%;
+#tituloDiscosNormales h1{
+    border: solid black 2px;
 }
 
 /*------HOME------*/
@@ -258,7 +245,7 @@ main{
     align-items: center;
     height: 100%;
 }
-#sexo{
+.centrados{
     display: flex;
     align-items: center;
 }
@@ -280,7 +267,7 @@ main{
 }
 #grid{
     display: grid;
-    margin: 0 11% 0 11%;
+    margin: 0 11% 100px 11%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 
@@ -315,8 +302,6 @@ main{
     justify-content: center;
     text-align: center;
 }
-
-
 
 
 /*------FOOTER------*/

@@ -7,10 +7,6 @@ img{
     border-radius: 20px;
 }
 
-video{
-    border-radius: 20px;
-}
-
 a{
     text-decoration: none;
     color: black;
@@ -20,7 +16,7 @@ header ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    margin: 0 0 0 0;
+    margin: 0;
     font-size: xx-large;
 }
 
@@ -41,6 +37,11 @@ header ul{
 }
 
 #marg0-2{
+    margin: 0%;
+    padding: 0%;
+}
+
+#marg0-2 ul{
     margin: 0%;
     padding: 0%;
 }
@@ -209,7 +210,7 @@ main{
 }
 
 #galeria img{
-    height: 600px;
+    height: 400px;
 }
 
 #video video{
@@ -220,6 +221,8 @@ main{
 #video{
     display: flex;
     justify-content: center;
+    padding: 0%;
+    margin: 0%;
 }
 
 /*------HOME------*/
@@ -451,9 +454,38 @@ p{
 
 @media screen and (min-width: 320px) and (max-width: 480px){
     /*-----ENANO-----*/
-
-
-
+    nav ul{
+        font-size: small;
+    }
+    .contenedorTemas{
+        margin: 5px 0 5px 0;
+    }
+    #galeria{
+        margin-bottom: 0;
+    }
+    #integrantes{
+        height: auto;
+    }
+    #galeria img{
+        height: 300px;
+    }
+    .carruseles{
+        margin: 5px 0 5px 0;
+    }
+    #video video{
+       padding-top: 20px;
+    }
+    #footer ul{
+        font-size: small;
+        margin: 0%;
+        padding: 0%;
+    }
+    #navFooter{
+        padding: 10px 0 10px 0;
+    }
+    #redeS{
+        padding: 10px 0 0 10px;
+    }
 
 
 

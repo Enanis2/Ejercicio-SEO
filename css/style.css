@@ -244,13 +244,19 @@ main{
 }
 #video{
     width: 100%;
-    
+    padding: 0%;
 }
 #tex2{
     display: flex;
     justify-content: end;
     text-align: end;
     font-size: large;
+    align-items: center;
+    height: 100%;
+}
+#sexo{
+    display: flex;
+    align-items: center;
 }
 #aprende{
     width: 80%;

@@ -9,7 +9,7 @@ img{
 
 a{
     text-decoration: none;
-    color: black;
+        color: black;
 }
 
 header ul{
@@ -20,9 +20,16 @@ header ul{
     font-size: xx-large;
 }
 
+#header2{
+    padding: 0%;
+    margin: 0%;
+    background-image: radial-gradient(at 50% 40%, white, #a89f85 75%);  
+}
+
 #header{
     padding: 0%;
     margin: 0%;
+    background-image: radial-gradient(at 50% 40%, white, #a89f85 75%);  
 }
 
 #logoYtitulo{
@@ -33,7 +40,6 @@ header ul{
 #marg0{
     margin: 0%;
     padding: 0%;
-    background-image: radial-gradient(#328bd9, #0f228c 75%);
 }
 
 #marg0-2{
@@ -49,7 +55,6 @@ header ul{
 #marg0-3{
     margin: 0%;
     padding: 0%;  
-    background-image: radial-gradient(#328bd9, #0f228c 75%);  
 }
 
 #marg0-4{
@@ -62,12 +67,18 @@ nav li:hover a{
 }
 
 u{
-    color: white;
+    color: black;
+}
+
+#sombraNav{
+    margin: 0;
+    height: 10px;
+    background-image: linear-gradient(#bdb7a6, rgb(8, 7, 7), #fdf1d1);    
 }
 
 main{
     margin: 0 5% 0 5%;
-    color: white;
+    color: black;
 }
 
 .discos{
@@ -335,20 +346,20 @@ footer ul{
     display: flex;
 }
 
-.laRed h3{
-    color: white;
-}
-
 footer li:hover a{
     text-decoration: underline;
 }
 
 .margen ul{
-    background-color: #F20519;
+    background-color: #c4b895;
+    border: solid #5e594b 5px;
+    margin: 0%;
+    padding: 0%;
 }
 
 .margen{
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 footer img{
@@ -381,8 +392,8 @@ footer img{
 }
 
 #transicion{
-    background-image: linear-gradient(to top, #f20519, #0f228c);
-    height: 20px;
+    background-image: linear-gradient(to top, #a89f85, black, #fdf1d1);
+    height: 10px;
     margin: 0%;
     padding: 0%;
 }
@@ -397,16 +408,13 @@ footer img{
 /*---colores----*/
 
 body{
-    background-color: #0f228c;
+    background-color: #fdf1d1;
 }
 
 div nav{
-    background-color: #F20519;
-    color: white;
+    color: black
 }
-a{
-    color: white;
-}
+
 p{
     color: white;
 }
@@ -434,7 +442,7 @@ p{
     background-image: linear-gradient(#F20519,rgb(8, 7, 7), #0f228c);    
 }
 #footer{
-    background-color: #F20519;
+    background-color: #a89f85;
 }
 #disco1{
     margin: 0 11% 0 11%;
@@ -546,17 +554,6 @@ p{
 
 
 
-
-
-
-
-
-
-
-
-
-
-}
 
 
 

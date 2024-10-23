@@ -229,7 +229,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
 }
 
 #pibes img{
@@ -277,7 +276,8 @@ main{
 }
 #grid{
     display: grid;
-    margin: 0 11% 100px 11%;
+    margin: 0 11% 0 11%;
+    padding: 20px 10px 20px 10px    ;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 
@@ -409,12 +409,27 @@ p{
     color: white;
 }
 #grid{
-    background-color: #0f228c;
+    background-color: #0d24a6;
 }
 #grad{
     margin: 0 11% 0 11%;
     height: 50px;
-    background-image: linear-gradient(#328BD9,#0f228c);
+    background-image: linear-gradient(#328BD9, #0d24a6);
+}
+#grad-2{
+    margin: 0 11% 0 11%;
+    height: 50px;
+    background-image: linear-gradient(#0d24a6, #0f228c);    
+}
+#grad-3{
+    margin: 30px 11% 0 11%;
+    height: 50px;
+    background-image: linear-gradient(#0f228c, #328BD9);     
+}
+#gradNav{
+    margin: 0;
+    height: 10px;
+    background-image: linear-gradient(#F20519,rgb(8, 7, 7), #0f228c);    
 }
 #footer{
     background-color: #F20519;

@@ -346,6 +346,17 @@ main{
     justify-content: center;
     text-align: center;
 }
+.finish{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+#viejos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -573,6 +584,7 @@ div nav{
 
 
 
+
     
 
 
@@ -624,4 +636,10 @@ div nav{
         margin: 1% 0% 0 6%;
         font-size: large;
     }
+    #viejos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

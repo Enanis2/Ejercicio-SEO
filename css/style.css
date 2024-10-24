@@ -274,6 +274,7 @@ main{
     justify-content:center;
     text-align: center;
     align-items: center;
+    flex-direction: column;
     height: 100%;
 }
 .sin{
@@ -297,12 +298,12 @@ main{
     display: flex;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    flex-direction: column;
 }
 #lorem-1 p{
     display: flex;
     justify-content: center;
-    text-align: end;
+    text-align: center;
     font-size: larger;
 }
 #cancion-1{
@@ -333,7 +334,30 @@ main{
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
 }
+#tit1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#tit2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.finish{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+#viejos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
@@ -560,6 +584,7 @@ div nav{
 
 
 
+
     
 
 
@@ -611,4 +636,10 @@ div nav{
         margin: 1% 0% 0 6%;
         font-size: large;
     }
+    #viejos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

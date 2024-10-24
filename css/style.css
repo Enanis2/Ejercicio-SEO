@@ -6,6 +6,7 @@
 img{
     border-radius: 20px;
 }
+
 video{
     border-radius: 20px;
 }
@@ -38,6 +39,10 @@ header ul{
 #logoYtitulo{
     display: flex;
     justify-content: center;
+}
+
+#h1{
+    display: none;
 }
 
 #marg0{
@@ -353,9 +358,14 @@ footer ul{
     display: flex;
 }
 
+.laRed{
+    font-size: 20px;
+}
+
 footer li:hover a{
     text-decoration: underline;
 }
+
 #sui-generis{
     display: flex;
     justify-content: center;
@@ -414,6 +424,11 @@ footer img{
     height: 10px;
     margin: 0%;
     padding: 0%;
+}
+
+#sui-generis{
+    display: flex;
+    justify-content: center;
 }
 
 /*---colores----*/
@@ -485,6 +500,43 @@ div nav{
     }
     #redeS{
         padding: 10px 0 0 10px;
+    }
+    #charly{
+        width: 50%;
+        font-size: 18px;
+        transform: translate(60px, -385px);
+    }
+    #nito{
+        width: 50%;
+        font-size: 20px;
+        transform: translate(60px, -400px);
+    }
+    #vida{
+        font-size: 10px;
+        transform: translate(10px, -195px);
+    }
+    #confesiones{
+        font-size: 14px;
+        transform: translate(-30px, -270px);
+    }
+    #anecdotas{
+        font-size: 15px;
+        transform: translate(-30px, -305px);
+    }
+    #porsuigieco{
+        font-size: 14px;
+        transform: translate(-15px, -315px);
+    }
+    #adiosSui{
+        font-size: 9px;
+        transform: translate(-22px, -287px);
+    }
+    #sinfonias{
+        font-size: 9px;
+        transform: translate(15px, -305px);
+    }
+    #redeS{
+        padding-left: 30%;
     }
 
 
